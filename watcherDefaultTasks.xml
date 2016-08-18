@@ -1,0 +1,94 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-color $FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="LESS" />
+      <option name="output" value="$FileParentDir$/css/app.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="/usr/bin/lessc" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs>
+        <env name="PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileDir$ $FileParentDir$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles all .hbs files into templates.js" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="handlebars;hbs;mustache" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Handlebars" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/planvault_fac_browser/handlebars_precompile.sh" />
+      <option name="scopeName" value="fac" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs>
+        <env name="PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileDir$/$FileName$ $FileDir$/$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .scss files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Core SCSS" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/node_modules/node-sass/bin/node-sass" />
+      <option name="scopeName" value="core" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core/public/sass" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/core" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compile handlebar files in the Core" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="handlebars;hbs;mustache" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Core Handlebars" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/handlebars_precompile.sh" />
+      <option name="scopeName" value="core" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core/public/templates" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin" />
+      </envs>
+    </TaskOptions>
+  </component>
+</application>

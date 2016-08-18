@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="hjs" type="Handlebars/Mustache" />
+      <mapping pattern=".hubot_history" type="PLAIN_TEXT" />
+      <mapping ext="csr" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
