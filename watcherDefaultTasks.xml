@@ -90,5 +90,137 @@
         <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin" />
       </envs>
     </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/core" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Generates JSDoc documentation for the client-side code" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="JSDoc Core Client" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/jsdoc_frontend.sh" />
+      <option name="scopeName" value="core client js" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/core" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Generates JSDoc documentation for the server-side code" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="JSDoc Core Server" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/jsdoc_backend.sh" />
+      <option name="scopeName" value="core server js" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/core" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Generates JSDoc documentation for the client-side code" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Core JSDoc Client" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/jsdoc_frontend.sh" />
+      <option name="scopeName" value="core client js" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/core" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Generates JSDoc documentation for the server-side code" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Core JSDoc Server" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/jsdoc_backend.sh" />
+      <option name="scopeName" value="core server js" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/fac" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles *.handlebars templates into a single .js file" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="handlebars;hbs;mustache" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Fac Handlebars" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/fac/handlebars_precompile.sh" />
+      <option name="scopeName" value="fac templates" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$USER_HOME$/Documents/akitabox/fac/public/templates" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$ProjectFileDir$/fac/public/less/app.less $ProjectFileDir$/fac/public/css/app.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Fac Less" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$\Q in \E$FILE_PATH$\Q on line \E$LINE$\Q, column \E$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Documents/akitabox/fac/node_modules/less/bin/lessc" />
+      <option name="scopeName" value="fac" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$/fac/public/less" />
+      <envs>
+        <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
+      </envs>
+    </TaskOptions>
   </component>
 </application>
