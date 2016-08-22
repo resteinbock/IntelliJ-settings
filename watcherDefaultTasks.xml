@@ -132,7 +132,7 @@
         <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
       </envs>
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$ProjectFileDir$/core" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Generates JSDoc documentation for the client-side code" />
@@ -153,7 +153,7 @@
         <env name="PATH" value="/home/robbie/.nvm/v0.10.46/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin" />
       </envs>
     </TaskOptions>
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$ProjectFileDir$/core" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Generates JSDoc documentation for the server-side code" />
