@@ -62,7 +62,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/Documents/akitabox/core/node_modules/node-sass/bin/node-sass" />
-      <option name="scopeName" value="core" />
+      <option name="scopeName" value="core sass" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core/public/sass" />
       <envs>
@@ -83,7 +83,7 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/Documents/akitabox/core/scripts/handlebars_precompile.sh" />
-      <option name="scopeName" value="core" />
+      <option name="scopeName" value="core templates" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$USER_HOME$/Documents/akitabox/core/public/templates" />
       <envs>
