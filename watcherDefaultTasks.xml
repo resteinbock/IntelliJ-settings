@@ -73,7 +73,7 @@
       <option name="arguments" value="$ProjectFileDir$/core" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compile handlebar files in the Core" />
-      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
       <option name="fileExtension" value="handlebars;hbs;mustache" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Core Handlebars" />
